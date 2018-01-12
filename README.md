@@ -1,6 +1,6 @@
 # Nepxion Matrix
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/Nepxion/Matrix/blob/master/LICENSE)
-[![Maven Central](https://img.shields.io/maven-central/v/com.nepxion/matrix.svg?label=Maven%20Central)](http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22com.nepxion%22%20AND%20matrix-aop)
+[![Maven Central](https://img.shields.io/maven-central/v/com.nepxion/matrix.svg?label=Maven%20Central)](http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22com.nepxion%22%20AND%20matrix)
 [![Javadocs](http://www.javadoc.io/badge/com.nepxion/matrix.svg)](http://www.javadoc.io/doc/com.nepxion/matrix)
 [![Build Status](https://travis-ci.org/Nepxion/Matrix.svg?branch=master)](https://travis-ci.org/Nepxion/Matrix)
 
@@ -64,7 +64,6 @@ package com.nepxion.matrix.simple.aop;
  * <p>Copyright: Copyright (c) 2017</p>
  * <p>Company: Nepxion</p>
  * @author Haojun Ren
- * @email 1394997@qq.com
  * @version 1.0
  */
 
@@ -86,7 +85,6 @@ package com.nepxion.matrix.simple.aop;
  * <p>Copyright: Copyright (c) 2017</p>
  * <p>Company: Nepxion</p>
  * @author Haojun Ren
- * @email 1394997@qq.com
  * @version 1.0
  */
 
@@ -152,7 +150,6 @@ package com.nepxion.matrix.simple.aop;
  * <p>Copyright: Copyright (c) 2017</p>
  * <p>Company: Nepxion</p>
  * @author Haojun Ren
- * @email 1394997@qq.com
  * @version 1.0
  */
 
@@ -227,7 +224,6 @@ package com.nepxion.matrix.complex.aop;
  * <p>Copyright: Copyright (c) 2017</p>
  * <p>Company: Nepxion</p>
  * @author Haojun Ren
- * @email 1394997@qq.com
  * @version 1.0
  */
 
