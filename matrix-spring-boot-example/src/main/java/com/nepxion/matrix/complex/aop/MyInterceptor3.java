@@ -17,8 +17,8 @@ import org.springframework.stereotype.Component;
 
 import com.nepxion.matrix.aop.AbstractInterceptor;
 
-@Component("myInterceptor4")
-public class MyInterceptor4 extends AbstractInterceptor {
+@Component("myInterceptor3")
+public class MyInterceptor3 extends AbstractInterceptor {
     @Override
     public Object invoke(MethodInvocation invocation) throws Throwable {
         String proxyClassName = getProxyClassName(invocation);
@@ -28,7 +28,7 @@ public class MyInterceptor4 extends AbstractInterceptor {
         Annotation[] classAnnotations = getProxiedClassAnnotations(invocation);
         String methodName = getMethodName(invocation);
         Annotation[] methodAnnotations = getMethodAnnotations(invocation);
-        String[] parameterNames = getParameterNames(invocation);
+        String[] parameterNames = getMethodParameterNames(invocation);
         String parameterAnnotationValue = null;
         try {
             parameterAnnotationValue = getValueByParameterAnnotation(invocation, MyAnnotation7.class, String.class);
@@ -37,7 +37,7 @@ public class MyInterceptor4 extends AbstractInterceptor {
         }
 
         System.out.println("------------------------------------------------------------------------------------------");
-        System.out.println("My Interceptor 4 :");
+        System.out.println("My Interceptor 3 :");
         System.out.println("   proxyClassName=" + proxyClassName);
         System.out.println("   className=" + proxiedClassName);
         System.out.println("   classAnnotations=");
