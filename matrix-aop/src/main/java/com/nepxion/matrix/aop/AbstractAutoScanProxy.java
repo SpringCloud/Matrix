@@ -44,7 +44,7 @@ public abstract class AbstractAutoScanProxy extends AbstractAutoProxyCreator {
         System.out.println("║║║║║║╔╗║║║║╔╬╬╬╬╝");
         System.out.println("║║║║║║╔╗║║╚╣║║╠╬╬╗");
         System.out.println("╚╝╚╝╚╩╝╚╝╚═╩╝╚╩╝╚╝");
-        System.out.println("Nepxion Matrix  v1.0.8");
+        System.out.println("Nepxion Matrix  v1.0.9");
         System.out.println("");
     }
 
@@ -116,7 +116,7 @@ public abstract class AbstractAutoScanProxy extends AbstractAutoProxyCreator {
         }
         LOG.info("------------- Matrix Aop Information ------------");
         LOG.info("Auto scan proxy class is {}", getClass().getCanonicalName());
-        LOG.info("Scan packages is {}", builder.toString());
+        LOG.info("Scan packages is {}", ArrayUtils.isNotEmpty(scanPackages) ? builder.toString() : "not set");
         LOG.info("Proxy mode is {}", proxyMode);
         LOG.info("Scan mode is {}", scanMode);
         LOG.info("Expose proxy is {}", exposeProxy);
